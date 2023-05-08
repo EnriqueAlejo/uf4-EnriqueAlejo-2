@@ -61,7 +61,6 @@ RUN service mysql start && \
 # Copiar los archivos de configuración
 COPY wp-config.php /var/www/html/
 COPY index.php /var/www/html/
-COPY script.sh /root/
 
 # Exponer los puertos
 EXPOSE 53 80 443 21 22 25 3306 9000
