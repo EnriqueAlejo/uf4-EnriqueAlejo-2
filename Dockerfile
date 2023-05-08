@@ -46,7 +46,7 @@ RUN postconf -e 'mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128'
 RUN postconf -e 'smtpd_banner = $myhostname ESMTP $mail_name (Ubuntu)'
 
 # Configuración de supervisord
-COPY supervisord.conf /etc/supervisor/conf.d/
+COPY supervisord.conf /etc/supervisord/conf.d
 
 # Configuración de phpMyAdmin
 COPY config.inc.php /etc/phpmyadmin/
