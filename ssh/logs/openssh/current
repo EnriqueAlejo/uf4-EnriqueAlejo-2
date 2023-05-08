@@ -1,0 +1,4 @@
+2023-05-08 15:54:54.171860076  Server listening on 0.0.0.0 port 2222.
+2023-05-08 15:54:54.176176858  Server listening on :: port 2222.
+2023-05-08 15:54:55.176729122  kex_exchange_identification: Connection closed by remote host
+2023-05-08 15:54:55.176843021  Connection closed by 127.0.0.1 port 50728
