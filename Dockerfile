@@ -1,4 +1,3 @@
-# Imagen base
 FROM ubuntu:latest
 
 # Instalar paquetes
